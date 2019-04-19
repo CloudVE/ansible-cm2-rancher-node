@@ -41,5 +41,5 @@
 
     # Note that this task does not wait for the container to exit/end execution
     - name: Boot CloudMan Node
-      shell: {{ rancher_node_command }}
+      shell: "{{ rancher_node_command }}"
 ...
